@@ -5,9 +5,11 @@
     <url>/2020/06/06/New%20blog/</url>
     <content><![CDATA[<h1 id="part-1"><a class="markdownIt-Anchor" href="#part-1"></a> Part 1</h1>
 <h2 id="chapter-1"><a class="markdownIt-Anchor" href="#chapter-1"></a> Chapter 1</h2>
-<p><em><strong>bold and slant</strong></em></p>
-<p><strong>blod</strong> 加粗</p>
-<p><em>slant</em> 倾斜</p>
+<p><strong>blod</strong> 加粗<br />
+<em>slant</em> 倾斜<br />
+<em><strong>bold and slant</strong></em></p>
+<p><s>要删除的文字</s>!<br />
+-要删除的文章-</p>
 <table>
 <thead>
 <tr>
@@ -26,8 +28,6 @@
 </tr>
 </tbody>
 </table>
-<p><s>要删除的文字</s>!<br />
--要删除的文章-</p>
 <p>他说：</p>
 <blockquote>
 <p>Was mich nicht umbringt, macht mich <strong>stärker</strong>.</p>
