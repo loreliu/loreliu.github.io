@@ -165,4 +165,5 @@ for(i in 1:100){
 # Part 3
 ## Chapter 1
 pdf file
-{% pdf https://github.com/loreliu/loreliu.github.io/tree/hexo/files/pdf/When%20%mathematics%20%meet%20%statistics.pdf %}
+
+{% pdf https://loreliu.github.io/files/pdf/When%20mathematics%20meet%20statistics.pdf %}
