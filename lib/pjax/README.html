@@ -25,7 +25,7 @@ _config.yml  crowdin.yml  docs  gulpfile.js  languages  layout  LICENSE.md  pack
 $ git pull
 </code></pre>
 <h1 id="pjax"><a class="markdownIt-Anchor" href="#pjax"></a> Pjax</h1>
-<p><a href="https://travis-ci.org/MoOx/pjax" target="_blank" rel="noopener"><img src="https://img.shields.io/travis/MoOx/pjax.svg" alt="Build Status" /></a>.</p>
+<p><a href="https://travis-ci.org/MoOx/pjax" target="_blank" rel="noopener"><img src="https://img.shields.io/travis/MoOx/pjax.svg" alt="Build Status"></a>.</p>
 <blockquote>
 <p>Easily enable fast AJAX navigation on any website (using pushState() + XHR)</p>
 </blockquote>
@@ -71,18 +71,18 @@ npm run build
 </code></pre>
 </li>
 </ul>
-<hr />
+<hr>
 <h2 id="what-pjax-does"><a class="markdownIt-Anchor" href="#what-pjax-does"></a> What Pjax Does</h2>
-<p><em>Under the hood, it’s just ONE HTTP request with a <code>pushState()</code> call.</em></p>
-<p>Pjax loads pages using AJAX and updates the browser’s current URL using <code>pushState()</code> <em>without</em> reloading your page’s layout or any resources (JS, CSS), giving a fast page load.</p>
+<p><em>Under the hood, it's just ONE HTTP request with a <code>pushState()</code> call.</em></p>
+<p>Pjax loads pages using AJAX and updates the browser's current URL using <code>pushState()</code> <em>without</em> reloading your page's layout or any resources (JS, CSS), giving a fast page load.</p>
 <p>It works with all permalinks and can update all the parts of the page you want (including HTML metas, title, and navigation state).</p>
-<p>In the case of <a href="http://caniuse.com/#search=pushstate" target="_blank" rel="noopener">browsers that don’t support <code>history.pushState()</code></a>, Pjax gracefully degrades and does not do anything at all.</p>
+<p>In the case of <a href="http://caniuse.com/#search=pushstate" target="_blank" rel="noopener">browsers that don't support <code>history.pushState()</code></a>, Pjax gracefully degrades and does not do anything at all.</p>
 <p>Additionally, Pjax:</p>
 <ul>
 <li>Is not limited to one container, like jQuery-Pjax is.</li>
 <li>Fully supports browser history (back and forward buttons).</li>
 <li>Supports keyboard browsing.</li>
-<li>Automatically falls back to standard navigation for external pages (thanks to Captain Obvious’s help).</li>
+<li>Automatically falls back to standard navigation for external pages (thanks to Captain Obvious's help).</li>
 <li>Automatically falls back to standard navigation for internal pages that do not have an appropriate DOM tree.</li>
 <li>Allows for CSS transitions (animations) very easily.</li>
 <li>Is only around 6kb (minified and gzipped).</li>
@@ -90,18 +90,18 @@ npm run build
 <h2 id="how-pjax-works"><a class="markdownIt-Anchor" href="#how-pjax-works"></a> How Pjax Works</h2>
 <ul>
 <li>It listens to every click on links <em>you want</em> (by default all of them).</li>
-<li>When an internal link is clicked, Pjax fetches the page’s HTML via AJAX.</li>
-<li>Pjax renders the page’s DOM tree (without loading any resources - images, CSS, JS, etc).</li>
+<li>When an internal link is clicked, Pjax fetches the page's HTML via AJAX.</li>
+<li>Pjax renders the page's DOM tree (without loading any resources - images, CSS, JS, etc).</li>
 <li>It checks that all defined parts can be replaced:
 <ul>
-<li>If the page doesn’t meet the requirements, standard navigation is used.</li>
+<li>If the page doesn't meet the requirements, standard navigation is used.</li>
 <li>If the page meets the requirements, Pjax does all defined DOM replacements.</li>
 </ul>
 </li>
-<li>Then it updates the browser’s current URL using <code>pushState()</code>.</li>
+<li>Then it updates the browser's current URL using <code>pushState()</code>.</li>
 </ul>
 <h2 id="overview"><a class="markdownIt-Anchor" href="#overview"></a> Overview</h2>
-<p><em>Pjax is fully automatic</em>. You don’t need to change anything about your existing HTML,<br />
+<p><em>Pjax is fully automatic</em>. You don't need to change anything about your existing HTML,<br>
 you just need to designate which elements on your page that you want to be replaced when your site is navigated.</p>
 <p>Consider the following page.</p>
 <pre class="highlight"><code class="html"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span>
@@ -161,7 +161,7 @@ you just need to designate which elements on your page that you want to be repla
   ]
 })
 </code></pre>
-<p>Now, when someone in a Pjax-compatible browser clicks an internal link on the page, the content of each of the selectors will be replaced with the specific content pieces found in the next page’s content.</p>
+<p>Now, when someone in a Pjax-compatible browser clicks an internal link on the page, the content of each of the selectors will be replaced with the specific content pieces found in the next page's content.</p>
 <p><em>Magic! For real!</em> <strong>There is no need to do anything server-side!</strong></p>
 <h2 id="differences-with-jquery-pjax"><a class="markdownIt-Anchor" href="#differences-with-jquery-pjax"></a> Differences with <a href="https://github.com/defunkt/jquery-pjax" target="_blank" rel="noopener">jQuery-pjax</a></h2>
 <ul>
@@ -173,11 +173,11 @@ you just need to designate which elements on your page that you want to be repla
 <li>Can be easily tweaked, since every method is public (and as a result, overridable).</li>
 </ul>
 <h2 id="compatibility"><a class="markdownIt-Anchor" href="#compatibility"></a> Compatibility</h2>
-<p>Pjax only works with <a href="http://caniuse.com/#search=pushstate" target="_blank" rel="noopener">browsers that support the <code>history.pushState()</code> API</a>. When the API isn’t supported, Pjax goes into fallback mode (and it just does nothing).</p>
+<p>Pjax only works with <a href="http://caniuse.com/#search=pushstate" target="_blank" rel="noopener">browsers that support the <code>history.pushState()</code> API</a>. When the API isn't supported, Pjax goes into fallback mode (and it just does nothing).</p>
 <p>To see if Pjax is actually supported by your browser, use <code>Pjax.isSupported()</code>.</p>
 <h2 id="usage"><a class="markdownIt-Anchor" href="#usage"></a> Usage</h2>
 <h3 id="new-pjax"><a class="markdownIt-Anchor" href="#new-pjax"></a> <code>new Pjax()</code></h3>
-<p>Let’s talk more about the most basic way to get started.</p>
+<p>Let's talk more about the most basic way to get started.</p>
 <p>When instantiating <code>Pjax</code>, you can pass options into the constructor as an object:</p>
 <pre class="highlight"><code class="js"><span class="keyword">var</span> pjax = <span class="keyword">new</span> Pjax({
   <span class="attr">elements</span>: <span class="string">"a"</span>, <span class="comment">// default is "a[href], form[action]"</span>
@@ -238,7 +238,7 @@ pjax.handleResponse = <span class="function"><span class="keyword">function</spa
 }
 </code></pre>
 <h3 id="refreshel"><a class="markdownIt-Anchor" href="#refreshel"></a> <code>refresh([el])</code></h3>
-<p>Use this method to bind Pjax to children of a DOM element that didn’t exist when Pjax was initialised e.g. content inserted dynamically by another library or script. If called with no arguments, Pjax will parse the entire document again to look for newly-inserted elements.</p>
+<p>Use this method to bind Pjax to children of a DOM element that didn't exist when Pjax was initialised e.g. content inserted dynamically by another library or script. If called with no arguments, Pjax will parse the entire document again to look for newly-inserted elements.</p>
 <pre class="highlight"><code class="js"><span class="comment">// Inside a callback or Promise that runs after new DOM content has been inserted</span>
 <span class="keyword">var</span> newContent = <span class="built_in">document</span>.querySelector(<span class="string">".new-content"</span>);
 
@@ -285,7 +285,7 @@ pjax.refresh(newContent);
 <span class="tag">&lt;/<span class="name">body</span>&gt;</span>
 <span class="tag">&lt;/<span class="name">html</span>&gt;</span>
 </code></pre>
-<p>This example is correct and should work “as expected”.</p>
+<p>This example is correct and should work &quot;as expected&quot;.</p>
 <p><strong>NOTE:</strong> <em>If the current page and new page do not have the same amount of DOM elements, Pjax will fall back to normal page load.</em></p>
 <h3 id="switches-object-default"><a class="markdownIt-Anchor" href="#switches-object-default"></a> <code>switches</code> (Object, default: <code>{}</code>)</h3>
 <p>This is an object containing callbacks that can be used to switch old elements with new elements.</p>
@@ -307,13 +307,13 @@ pjax.refresh(newContent);
 <p>Callbacks are bound to the Pjax instance itself to allow you to reuse it (ex: <code>this.onSwitch()</code>)</p>
 <h3 id="existing-switch-callbacks"><a class="markdownIt-Anchor" href="#existing-switch-callbacks"></a> Existing Switch Callbacks</h3>
 <ul>
-<li><code>Pjax.switches.outerHTML</code>:<br />
+<li><code>Pjax.switches.outerHTML</code>:<br>
 The default behavior, replaces elements using <code>outerHTML</code>.</li>
-<li><code>Pjax.switches.innerHTML</code>:<br />
+<li><code>Pjax.switches.innerHTML</code>:<br>
 Replaces elements using <code>innerHTML</code> and copies <code>className</code>.</li>
-<li><code>Pjax.switches.replaceNode</code>:<br />
+<li><code>Pjax.switches.replaceNode</code>:<br>
 Replaces elements using <code>replaceChild</code></li>
-<li><code>Pjax.switches.sideBySide</code>:<br />
+<li><code>Pjax.switches.sideBySide</code>:<br>
 Smart replacing that allows you to have both elements in the same parent when you want to use CSS animations. Old elements are removed when all children have been fully animated (an <a href="http://www.w3.org/TR/css3-animations/#animationend" target="_blank" rel="noopener">animationEnd</a> event is triggered).</li>
 </ul>
 <h3 id="creating-a-switch-callback"><a class="markdownIt-Anchor" href="#creating-a-switch-callback"></a> Creating a Switch Callback</h3>
@@ -448,8 +448,8 @@ Smart replacing that allows you to have both elements in the same parent when yo
 <p>Enable the use of <code>pushState()</code>. Disabling this will prevent Pjax from updating browser history. While possible, there is almost no use case where you would want to do this.</p>
 <p>Internally, this option is used when a <code>popstate</code> event triggers Pjax (to not <code>pushState()</code> again).</p>
 <h3 id="analytics-function-boolean-default-a-function-that-pushes-_gaq-_trackpageview-or-sends-ga-pageview"><a class="markdownIt-Anchor" href="#analytics-function-boolean-default-a-function-that-pushes-_gaq-_trackpageview-or-sends-ga-pageview"></a> <code>analytics</code> (Function | Boolean, default: a function that pushes <code>_gaq</code> <code>_trackPageview</code> or sends <code>ga</code> <code>pageview</code></h3>
-<p>Function that allows you to add behavior for analytics. By default it tries to track<br />
-a pageview with Google Analytics (if it exists on the page). It’s called every time a page is switched, even for history navigation.</p>
+<p>Function that allows you to add behavior for analytics. By default it tries to track<br>
+a pageview with Google Analytics (if it exists on the page). It's called every time a page is switched, even for history navigation.</p>
 <p>Set to <code>false</code> to disable this behavior.</p>
 <h3 id="scrollto-integer-integer-integer-false-default-0"><a class="markdownIt-Anchor" href="#scrollto-integer-integer-integer-false-default-0"></a> <code>scrollTo</code> (Integer | [Integer, Integer] | False, default: <code>0</code>)</h3>
 <p>When set to an integer, this is the value (in px from the top of the page) to scroll to when a page is switched.</p>
@@ -464,7 +464,7 @@ a pageview with Google Analytics (if it exists on the page). It’s called every
 <h3 id="currenturlfullreload-boolean-default-false"><a class="markdownIt-Anchor" href="#currenturlfullreload-boolean-default-false"></a> <code>currentUrlFullReload</code> (Boolean, default: <code>false</code>)</h3>
 <p>When set to <code>true</code>, clicking on a link that points to the current URL will trigger a full page reload.</p>
 <p>When set to <code>false</code>, clicking on such a link will cause Pjax to load the current page without a full page reload. If you want to add some custom behavior, add a click listener to the link and call <code>preventDefault()</code>. This will prevent Pjax from receiving the event.</p>
-<p><strong>Note</strong>: This must be done before Pjax is instantiated, otherwise Pjax’s event handler will be called first, and <code>preventDefault()</code> won’t have been called yet.</p>
+<p><strong>Note</strong>: This must be done before Pjax is instantiated, otherwise Pjax's event handler will be called first, and <code>preventDefault()</code> won't have been called yet.</p>
 <p>Here is some sample code:</p>
 <pre class="highlight"><code class="js">  <span class="keyword">var</span> links = <span class="built_in">document</span>.querySelectorAll(<span class="string">".js-Pjax"</span>);
 
@@ -483,11 +483,11 @@ a pageview with Google Analytics (if it exists on the page). It’s called every
 
   <span class="keyword">var</span> pjax = <span class="keyword">new</span> Pjax()
 </code></pre>
-<p>(Note that if <code>cacheBust</code> is set to <code>true</code>, the code that checks if the href is the same as the current page’s URL will not work, due to the query string appended to force a cache bust).</p>
+<p>(Note that if <code>cacheBust</code> is set to <code>true</code>, the code that checks if the href is the same as the current page's URL will not work, due to the query string appended to force a cache bust).</p>
 <h3 id="timeout-integer-default-0"><a class="markdownIt-Anchor" href="#timeout-integer-default-0"></a> <code>timeout</code> (Integer, default: <code>0</code>)</h3>
 <p>The timeout in <em>milliseconds</em> for the XHR requests. Set to <code>0</code> to disable the timeout.</p>
 <h2 id="events"><a class="markdownIt-Anchor" href="#events"></a> Events</h2>
-<p>Pjax fires a number of events regardless of how it’s invoked.</p>
+<p>Pjax fires a number of events regardless of how it's invoked.</p>
 <p>All events are fired from the <em>document</em>, not the link that was clicked.</p>
 <ul>
 <li><code>pjax:send</code> - Fired after the Pjax request begins.</li>
@@ -506,8 +506,8 @@ a pageview with Google Analytics (if it exists on the page). It’s called every
 <ul>
 <li><code>X-Requested-With: &quot;XMLHttpRequest&quot;</code></li>
 <li><code>X-PJAX: &quot;true&quot;</code></li>
-<li><code>X-PJAX-Selectors</code>:<br />
-A serialized JSON array of selectors, taken from <code>options.selectors</code>. You can use this to send back only the elements that Pjax will use to switch, instead of sending the whole page. Note that you’ll need to deserialize this on the server (Such as by using <code>JSON.parse()</code>)</li>
+<li><code>X-PJAX-Selectors</code>:<br>
+A serialized JSON array of selectors, taken from <code>options.selectors</code>. You can use this to send back only the elements that Pjax will use to switch, instead of sending the whole page. Note that you'll need to deserialize this on the server (Such as by using <code>JSON.parse()</code>)</li>
 </ul>
 <h3 id="response-headers"><a class="markdownIt-Anchor" href="#response-headers"></a> Response Headers</h3>
 <p>Pjax looks for the following headers on the response:</p>
@@ -517,7 +517,7 @@ A serialized JSON array of selectors, taken from <code>options.selectors</code>.
 <p>Pjax first checks the <code>responseURL</code> property on the XHR object to see if the request was redirected by the server. Most browsers support this, but not all. To ensure Pjax will be able to tell when the request is redirected, you can include one of these headers with the response, set to the final URL.</p>
 <h2 id="dom-ready-state"><a class="markdownIt-Anchor" href="#dom-ready-state"></a> DOM Ready State</h2>
 <p>Most of the time, you will have code related to the current DOM that you only execute when the DOM is ready.</p>
-<p>Since Pjax doesn’t automatically re-execute your previous code each time you load a page, you’ll need to add code to re-trigger the DOM ready code. Here’s a simple example:</p>
+<p>Since Pjax doesn't automatically re-execute your previous code each time you load a page, you'll need to add code to re-trigger the DOM ready code. Here's a simple example:</p>
 <pre class="highlight"><code class="js"><span class="function"><span class="keyword">function</span> <span class="title">whenDOMReady</span>(<span class="params"></span>) </span>{
   <span class="comment">// do your stuff</span>
 }
@@ -528,7 +528,7 @@ whenDOMReady()
 
 <span class="built_in">document</span>.addEventListener(<span class="string">"pjax:success"</span>, whenDOMReady)
 </code></pre>
-<p><em>Note: Don’t create the Pjax instance in the <code>whenDOMReady</code> function.</em></p>
+<p><em>Note: Don't create the Pjax instance in the <code>whenDOMReady</code> function.</em></p>
 <p>If you want to just update a specific part (which is a good idea), you can add the DOM-related code in a function and re-execute this function when the <code>pjax:success</code> event is fired.</p>
 <pre class="highlight"><code class="js"><span class="comment">// do your global stuff</span>
 <span class="comment">//... DOM ready code</span>
@@ -544,7 +544,7 @@ whenContainerReady()
 <span class="built_in">document</span>.addEventListener(<span class="string">"pjax:success"</span>, whenContainerReady)
 </code></pre>
 <h2 id="faq"><a class="markdownIt-Anchor" href="#faq"></a> FAQ</h2>
-<h3 id="q-disqus-doesnt-work-anymore-how-can-i-fix-that"><a class="markdownIt-Anchor" href="#q-disqus-doesnt-work-anymore-how-can-i-fix-that"></a> Q: Disqus doesn’t work anymore, how can I fix that ?</h3>
+<h3 id="q-disqus-doesnt-work-anymore-how-can-i-fix-that"><a class="markdownIt-Anchor" href="#q-disqus-doesnt-work-anymore-how-can-i-fix-that"></a> Q: Disqus doesn't work anymore, how can I fix that ?</h3>
 <h4 id="a-there-are-a-few-things-you-need-to-do"><a class="markdownIt-Anchor" href="#a-there-are-a-few-things-you-need-to-do"></a> A: There are a few things you need to do:</h4>
 <ul>
 <li>
