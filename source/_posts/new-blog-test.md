@@ -5,7 +5,7 @@ author: New blog test
 categories: New blog test
 tags: [New blog test]
 description: This is a description of this post.
-# katex: true
+katex: true
 ---
 
 # Part 1

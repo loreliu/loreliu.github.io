@@ -138,24 +138,20 @@ sitemap:
   path: sitemap.xml
 
 
-# Markdown-it config
-markdown:
+# Markdown config
+markdown_it_plus:
   render:
-    html: true
+    html: true						
     xhtmlOut: false
     breaks: true
     linkify: true
     typographer: false
     quotes: '“”‘’'
   plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-  anchors:
+  anchors:	
     level: 2
     collisionSuffix: 'v'
     permalink: true
     permalinkClass: header-anchor
+    permalinkSide: 'left'
     permalinkSymbol: ¶
