@@ -5,7 +5,7 @@ author: New blog test
 categories: New blog test
 tags: [New blog test]
 description: This is a description of this post.
-katex: true
+# katex: true  # https://theme-next.js.org/docs/third-party-services/math-equations
 ---
 
 # Part 1

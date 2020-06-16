@@ -138,20 +138,14 @@ sitemap:
   path: sitemap.xml
 
 
-# Markdown config
+# https://github.com/upupming/hexo-renderer-markdown-it-plus
 markdown_it_plus:
-  render:
-    html: true						
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: false
-    quotes: '“”‘’'
-  plugins:
-  anchors:	
-    level: 2
-    collisionSuffix: 'v'
-    permalink: true
-    permalinkClass: header-anchor
-    permalinkSide: 'left'
-    permalinkSymbol: ¶
+  highlight: true
+  html: true
+  xhtmlOut: false
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer: false
+  quotes: “”‘’
+  pre_class: highlight
