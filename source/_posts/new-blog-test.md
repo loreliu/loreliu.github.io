@@ -136,7 +136,7 @@ $$g(y)=\left\{\begin{array}{rl}e^{-y} & \text{if }y>0,\\0 & \text{other}\end{arr
 # Part 2
 ## Chapter 1
 图片
-![](https://i.loli.net/2020/04/18/J8lurIgnxsZeODS.jpg)
+![](/files/picture/兔子.jpg)
 ## Chapter 2
 
 Python
@@ -166,4 +166,4 @@ for(i in 1:100){
 ## Chapter 1
 pdf file
 
-{% pdf https://loreliu.github.io/files/pdf/When%20mathematics%20meet%20statistics.pdf %}
+{% pdf /files/pdf/When%20mathematics%20meet%20statistics.pdf %}
