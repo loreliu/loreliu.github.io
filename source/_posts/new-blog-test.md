@@ -165,5 +165,6 @@ for(i in 1:100){
 # Part 3
 ## Chapter 1
 pdf file
+This is the [link address](https://loreliu.github.io/files/pdf/When%20mathematics%20meet%20statistics.pdf) of this pdf file.
 
 {% pdf /files/pdf/When%20mathematics%20meet%20statistics.pdf %}
