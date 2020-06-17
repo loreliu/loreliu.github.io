@@ -166,7 +166,7 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <h1 id="part-2"><a class="markdownIt-Anchor" href="#part-2"></a> Part 2</h1>
 <h2 id="chapter-1-2"><a class="markdownIt-Anchor" href="#chapter-1-2"></a> Chapter 1</h2>
 <p>图片<br>
-<img data-src="https://i.loli.net/2020/04/18/J8lurIgnxsZeODS.jpg" alt=""></p>
+<img data-src="https://loreliu.github.io/files/picture/%E5%85%94%E5%AD%90.jpg" alt=""></p>
 <h2 id="chapter-2-2"><a class="markdownIt-Anchor" href="#chapter-2-2"></a> Chapter 2</h2>
 <p>Python</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(<span class="string">'you can see this output message, but not this code'</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">100</span>):</span><br><span class="line">    print(i)</span><br></pre></td></tr></table></figure>
@@ -246,6 +246,38 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
       </categories>
       <tags>
         <tag>PKU speech</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>achievement-perception-talent-patrimony-bullying-strive</title>
+    <url>/2020/06/18/achievement-perception-talent-patrimony-bullying-strive/</url>
+    <content><![CDATA[<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi></mrow><mi>π</mi></mfrac><mi>arctan</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>k</mi><mi>x</mi><mo>−</mo><mi>c</mi><mo stretchy="false">)</mo><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">y=\frac{2a}{\pi}\arctan(kx-c)+b
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">arctan</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">c</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span></span></p>
+<p>y：成就<br>
+k：悟性<br>
+a：天赋<br>
+b：家传<br>
+c：欺凌<br>
+x：努力<br>
+<img data-src="https://loreliu.github.io/files/gif/k.gif" alt=""><br>
+<img data-src="https://loreliu.github.io/files/gif/a.gif" alt=""><br>
+<img data-src="https://loreliu.github.io/files/gif/b.gif" alt=""><br>
+<img data-src="https://loreliu.github.io/files/gif/c.gif" alt=""></p>
+<blockquote>
+<p>天赋决定上限 努力决定下限</p>
+</blockquote>
+<blockquote>
+<p>还都是取决于 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span> 啊</p>
+</blockquote>
+<blockquote>
+<p>对，基因遗传和言传身教</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Thoughts about life</category>
+      </categories>
+      <tags>
+        <tag>self-development</tag>
       </tags>
   </entry>
 </search>
