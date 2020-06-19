@@ -2,7 +2,7 @@
 title: 《珍惜》
 date: 2020-06-10 22:54:17
 categories: Thoughts about life
-tags: [PKU speech]
+tags: [PKU speech,thinking,self-development]
 description: 教师代表孙祁祥教授在北京大学2017年本科新生开学典礼上的演讲
 ---
 

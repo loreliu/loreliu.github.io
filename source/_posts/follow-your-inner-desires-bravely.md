@@ -2,7 +2,7 @@
 title: Follow your inner desires bravely
 date: 2020-06-15 23:09:58
 categories: Thoughts about life
-tags: thinking
+tags: [thinking,self-development]
 ---
 
 Many people say that art and science are connected at a higher level. In an Oscar-best documentary, in a few words of Jewish American violin master Stern's visit to China, I found this bridge of communication art and science.

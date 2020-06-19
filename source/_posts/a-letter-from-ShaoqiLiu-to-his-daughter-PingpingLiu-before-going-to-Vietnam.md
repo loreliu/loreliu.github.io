@@ -2,7 +2,7 @@
 title: 刘少奇给女儿刘平平的一封家书
 date: 2020-06-14 17:31:09
 categories: Thoughts about life
-tags: [Letter]
+tags: [Letter,thinking,self-development]
 description: 这是刘少奇同志和他的夫人王光美同志在赴越前给他们的第一个女儿刘平平写的一封家书，当时十四岁的刘平平正在北京上中学，信中刘少奇要求她以一个优秀的共青团员的标准要求自己，献身于伟大的共产主义事业。
 ---
 
