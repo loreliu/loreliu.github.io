@@ -23,7 +23,8 @@ date: 2020-06-07 00:20:11
 
 说自己身世悲哀，渺小。但你能毫不顾忌在自己的文章中写出来，就是一种带着骄傲似谦虚。
 
-> 来自：[https://www.zhihu.com/question/58661311](https://www.zhihu.com/question/58661311)
+> 来自：
+> https://www.zhihu.com/question/58661311
 
 ### 2020年6月14日
 这确实是一篇难得的好文章。

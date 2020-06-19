@@ -1,11 +1,11 @@
 ---
 title: 《师说》
 date: 2020-06-19 20:56:44
-categories: 诗文
-tags: [古诗文,self-development,thinking]
+categories: Ancient poems
+tags: [ancient poem,self-development,thinking]
 ---
 
-<p align="center">作者：韩愈&emsp;&emsp;朝代：唐&emsp;&emsp;文学体裁：议论文</p>
+<p align="center">作者：韩愈&emsp;朝代：唐&emsp;文学体裁：议论文</p>
 
 &emsp;&emsp;古之学者必有师。师者，所以传道受业解惑也。人非生而知之者，孰能无惑？惑而不从师，其为惑也，终不解矣。生乎吾前，其闻道也固先乎吾，吾从而师之；生乎吾后，其闻道也亦先乎吾，吾从而师之。吾师道也，夫庸知其年之先后生于吾乎？是故无贵无贱，无长无少，道之所存，师之所存也。
 <!--more-->

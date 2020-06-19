@@ -35,5 +35,5 @@ tags: [thinking,self-development]
 
 南海有你，景皆失色。
 
-> 来自：[http://www.fulay.cn/html/104-131/131805.htm](http://www.fulay.cn/html/104-131/131805.htm)
+> 来自：http://www.fulay.cn/html/104-131/131805.htm
 
