@@ -1,6 +1,7 @@
 ---
 title: 三尺微命&emsp;一介书生
 date: 2020-06-19 08:52:58
+categories: Thoughts about life
 tags: [thinking,self-development]
 ---
 
