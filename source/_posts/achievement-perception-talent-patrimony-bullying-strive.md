@@ -3,6 +3,7 @@ title: Achievement, perception, talent, patrimony, bullying and strive
 date: 2020-06-18 00:09:45
 categories: Thoughts about life
 tags: [thinking,self-development]
+mathjax: true
 ---
 
 $$

@@ -492,7 +492,7 @@ math:
   # Default (true) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in Front-matter.
   # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
-  per_page: false
+  per_page: true
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
@@ -890,16 +890,16 @@ vendors:
 
   # KaTeX
   # katex: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
-  # katex: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css
-  # copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
-  # copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css
+  katex: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css
+  copy_tex_js: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.js
+  copy_tex_css: //cdn.jsdelivr.net/npm/katex@0/dist/contrib/copy-tex.min.css
   # katex:
   # copy_tex_js:
   # copy_tex_css:
 
   # Internal version: 0.2.8
-  # pjax: //cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
-  pjax:
+  pjax: //cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
+  # pjax:
 
   # FancyBox
   jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
