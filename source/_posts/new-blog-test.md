@@ -4,7 +4,7 @@ date: 2020-06-06 12:55:36
 author: New blog test
 categories: New blog test
 tags: [New blog test]
-description: This is a description of this post.
+description: 心之所向，素履以往。希望这是一个新的开始，Google Blogger和WordPress上的过去先暂时封存起来吧。
 mathjax: true  # https://theme-next.js.org/docs/third-party-services/math-equations
 ---
 
@@ -168,3 +168,7 @@ pdf file
 This is the [link address](https://loreliu.github.io/files/pdf/When%20mathematics%20meet%20statistics.pdf) of this pdf file.
 
 {% pdf /files/pdf/When%20mathematics%20meet%20statistics.pdf %}
+
+
+## Chapter 2
+

@@ -39,7 +39,6 @@ date: 2020-06-07 00:20:11
 
 <p align="center"><font color=orange>致敬</br>每一个坚韧努力、挥洒汗水的你</font></p>
 
----
 
 ## 2020年6月
 

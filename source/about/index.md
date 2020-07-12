@@ -8,7 +8,7 @@ mathjax: true
 一个永远的学生。
 
 ## $\TeX$
-两年 $\LaTeX$ 使用经历（2018-2020），热爱 $\TeX$。
+使用$\LaTeX$ ，热爱 $\TeX$，正准备做一个 tucthesis（LaTeX Thesis Template for Tianjin University of Commerce）。
 
 ## 编程语言
 C, R, Python。
