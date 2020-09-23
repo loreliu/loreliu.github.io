@@ -6,6 +6,12 @@ tags: [PKU speech,thinking,self-development]
 description: 教师代表孙祁祥教授在北京大学2017年本科新生开学典礼上的演讲
 ---
 
+{% raw %}
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=42127303&bvid=BV1ub411y7KP&cid=73953515&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>
+{% endraw %}
+
+---
+
 &emsp;&emsp;亲爱的同学们，大家上午好！
 
 &emsp;&emsp;非常荣幸作为教师代表，在今天这样一个热烈、庄重、喜庆的开学典礼上，欢迎你们来到美丽的燕园，开启新的生活篇章。
