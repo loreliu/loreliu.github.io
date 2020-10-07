@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://loreliu.github.io/about/index.html</loc>
+    
+    <lastmod>2020-10-07T11:42:31.659Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://loreliu.github.io/notes/index.html</loc>
     
     <lastmod>2020-10-06T11:57:30.548Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://loreliu.github.io/2020/10/04/Am-I-busy/</loc>
     
     <lastmod>2020-10-04T04:09:19.702Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://loreliu.github.io/about/index.html</loc>
-    
-    <lastmod>2020-10-01T03:38:19.535Z</lastmod>
     
   </url>
   
