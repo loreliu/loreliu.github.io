@@ -5,13 +5,7 @@ mathjax: true
 ---
 
 # 关于我
-一个永远的学生。
-
-## $\TeX$
-使用$\LaTeX$ ，热爱 $\TeX$，正准备做一个 tucthesis（LaTeX Thesis Template for Tianjin University of Commerce）。
-
-## 编程语言
-C, R, Python。
+想做老师的学生。在做 tucthesis（LaTeX Thesis Template for Tianjin University of Commerce）。
 
 # 关于本站
 
