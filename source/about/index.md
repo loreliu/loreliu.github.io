@@ -5,7 +5,7 @@ mathjax: true
 ---
 
 # 关于我
-想做老师的学生。在做 tucthesis（LaTeX Thesis Template for Tianjin University of Commerce）。
+还是学生，在做 tucthesis ,有重排陈希孺院士《数理统计学简史》的想法。
 
 # 关于本站
 
