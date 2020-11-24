@@ -186,13 +186,6 @@
   </url>
   
   <url>
-    <loc>https://loreliu.github.io/tags/poem/</loc>
-    <lastmod>2020-11-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://loreliu.github.io/tags/Reprint/</loc>
     <lastmod>2020-11-24</lastmod>
     <changefreq>daily</changefreq>
@@ -200,7 +193,21 @@
   </url>
   
   <url>
+    <loc>https://loreliu.github.io/tags/poem/</loc>
+    <lastmod>2020-11-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://loreliu.github.io/tags/birthday/</loc>
+    <lastmod>2020-11-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://loreliu.github.io/tags/Comments-on-People-s-Daily/</loc>
     <lastmod>2020-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -215,13 +222,6 @@
   
   <url>
     <loc>https://loreliu.github.io/tags/College-Entrance-Examination-promotion-Video/</loc>
-    <lastmod>2020-11-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://loreliu.github.io/tags/Comments-on-People-s-Daily/</loc>
     <lastmod>2020-11-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
