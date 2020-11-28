@@ -13,4 +13,4 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://mutebardtison.github.io/sitemap.xml
+Sitemap: https://loreliu.github.io/sitemap.xml
